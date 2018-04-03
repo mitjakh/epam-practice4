@@ -1,4 +1,7 @@
-public   class TemperatureConverter {
+import java.util.Calendar;
+
+public class TemperatureConverter
+{
     public double convertFtoC(double degreesFahrenheit) {
         return (degreesFahrenheit - 32.0) / 9.0 * 5.0;
     }
